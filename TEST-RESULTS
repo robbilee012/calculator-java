@@ -1,0 +1,21 @@
+Aritmetičke operacije: Čini se da kalkulator upravlja osnovnim aritmetičkim operacijama (sabiranje, oduzimanje, množenje, deljenje).
+
+Beskonačnost i rukovanje greškama: Uključuje rukovanje pozitivnom i negativnom beskonačnošću i vraća „GREŠKU“ u slučaju bilo kakvih izuzetaka tokom raščlanjivanja.
+
+Redosled operacija: Prati redosled operacija (množenje i deljenje pre sabiranja i oduzimanja).
+
+Potencijalni problemi i poboljšanja:
+
+Deljenje nulom: Kalkulator ne proverava deljenje nulom. Bilo bi korisno dodati ček da biste sprečili ovu situaciju.
+
+Validacija unosa: Kalkulator pretpostavlja da je unos uvek u očekivanom formatu. Dodatna provera valjanosti unosa bi se mogla dodati da bi se neočekivani slučajevi lakše obrađivali.
+
+Dupliciranje koda: Postoji izvesno dupliranje koda u metodi Calculate. Izdvajanje uobičajenog koda u zasebne pomoćne metode može poboljšati čitljivost i održavanje.
+
+Preciznost s pomičnim zarezom: Aritmetika s pomičnim zarezom može dovesti do problema sa preciznošću. Razmislite o korišćenju double umesto float radi bolje preciznosti u proračunima.
+
+Organizacija koda: Organizacija koda se može poboljšati. Razdvajanje problema na različite metode ili klase moglo bi učiniti kod modularnijim i lakšim za razumevanje.
+
+Ograničeno na binarne operacije: Kalkulator trenutno podržava samo binarne operacije. Proširivanje za rukovanje složenijim izrazima sa više operacija i zagrada može poboljšati njegove mogućnosti.
+
+Konkatenacija stringova: Metod ToString u klasi Operations koristi konkatenaciju stringova. Možda bi bilo jasnije koristiti StringBuilder za pravljenje stringa.
